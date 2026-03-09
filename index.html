@@ -1,0 +1,52 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مواقيت الصلاة في السعودية</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div id="city"></div>
+        <span class="date-time" id="date-time"></span>
+        <div class="spacer"></div>
+      </div>
+      <div class="main">
+        <div class="box">
+          <div class="dropdown-container">
+            <div class="dropdown">
+              <button
+                onclick="userClick()"
+                class="dropdown-btn"
+                id="dropdown-btn"
+              >
+                اختر المدينة
+              </button>
+              <div class="dropdown-menu" id="dropdown-menu"></div>
+            </div>
+          </div>
+          <div class="prayers">
+            <table class="bottom-box">
+              <thead>
+                <tr>
+                  <th>الصلاة</th>
+                  <td>الشروق</td>
+                  <td>الفجر</td>
+                  <td>الظهر</td>
+                  <td>العصر</td>
+                  <td>المغرب</td>
+                  <td>العشاء</td>
+                </tr>
+              </thead>
+              <tbody class="times" id="times"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="prayer-logic.js"></script>
+  </body>
+</html>
