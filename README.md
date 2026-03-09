@@ -1,4 +1,4 @@
-# 🕌 Prayer Times Project
+****# 🕌 Prayer Times Project
 
 A simple web application that displays **prayer times for cities in Saudi Arabia** using an external API.  
 Users can select a city from a dropdown menu, and the prayer times will update automatically.
@@ -13,7 +13,7 @@ Users can select a city from a dropdown menu, and the prayer times will update a
 
 ## Live Demo
 
-[Click here to view the project]()
+[Click here to view the project](https://hajarhr55.github.io/Prayer-Times-API/)
 
 ---
 
@@ -58,7 +58,7 @@ Users can select a city from a dropdown menu, and the prayer times will update a
 
 ## العرض المباشر
 
-[اضغط هنا لعرض المشروع]()
+[اضغط هنا لعرض المشروع](https://hajarhr55.github.io/Prayer-Times-API/)
 
 ---
 
